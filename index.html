@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión en USDT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Invierte en USDT y Gana un 8% Diario</h1>
+        <p>Para empezar a invertir, recarga tu cuenta con USDT utilizando la siguiente dirección de billetera (TRC20):</p>
+        <div class="wallet-address">
+            <p><strong>Dirección de Billetera:</strong></p>
+            <p id="wallet-address">TD5Ps23v4u67SK5RcWNkWmNC6T5MJG1jFL</p>
+        </div>
+        <div class="qr-code">
+            <img src="qr-code.png" alt="Código QR de la Billetera">
+        </div>
+        <p>Tu inversión te generará un 8% de retorno diario.</p>
+        <div class="form">
+            <label for="amount">Monto a invertir (USDT):</label>
+            <input type="number" id="amount" placeholder="Ingresa el monto en USDT">
+            <button onclick="calculateReturns()">Calcular Rendimiento Diario</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
